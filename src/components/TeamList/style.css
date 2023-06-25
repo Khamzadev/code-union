@@ -1,0 +1,49 @@
+.team-list {
+  position: absolute;
+  top: 70px;
+  left: 200px;
+  background-color: #f9fafb;
+  border-radius: 15px;
+  width: 70%;
+}
+
+.team-list__top {
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #9494a0;
+}
+
+.team-list__top > input {
+  font-size: 17px;
+}
+
+.top-input {
+  width: 60%;
+  height: 36px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 5px;
+  position: relative;
+  left: 50px;
+}
+
+.top-input:focus {
+  border: 1px solid #c1c1cb;
+}
+
+.top-search::before {
+  position: relative;
+  left: -28px;
+}
+
+.top-btn {
+  cursor: pointer;
+  padding: 7px;
+  background-color: #32c076;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  color: #fff;
+}
